@@ -132,9 +132,19 @@ text-transform: uppercase;
 .secundario img:hover {
    transform: scale(2);
    border: 4px solid white;
-
    position: relative;
-   bottom: 50px;
-      
+   bottom: 50px;  
+}
+
+.frmComprar {
+   margin-top: 16px;
+   background-color: #bc105c;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   
+   
    
 }
