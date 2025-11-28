@@ -1,150 +1,180 @@
 * {
-    font-family: Arial, Helveti    
+  font-family: Arial, Helveti;
 }
 
 body {
-    margin: 25px 100px 25px 100;
-    padding: 0px;
-    background-color: rgb(225, 19, 100);
-    color: white;
-    min-width: 320px;
+  margin: 25px 100px 25px 100;
+  padding: 0px;
+  background-color: rgb(225, 19, 100);
+  color: white;
+  min-width: 320px;
 }
 
 /* CABECERA */
 .cabecera {
-   display: flex;
-   justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-   align-items: center; /* Para centrar verticalmente si el contenedor tiene una altura definida */
-   background-color: rgb(245, 245, 245);
-   border-radius: 5px;
-   margin-bottom: 16px;
-   padding: 4px 4px 4px 4px;
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+  align-items: center; /* Para centrar verticalmente si el contenedor tiene una altura definida */
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  margin-bottom: 16px;
+  padding: 4px 4px 4px 4px;
 }
 .cabecera h1 {
-   margin: 0px;
-   color: black;
-   text-align: center;
-   text-shadow: 2px 2px 5px rgb(225, 19, 100);   
+  margin: 0px;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(225, 19, 100);
 }
 .btnVolver {
-   background-color: #2c8f20;
-   border-radius: 5px;
-   color: white;
-   width: 130px;
-   height: 35px;
-   cursor: pointer;    
+  background-color: #2c8f20;
+  border-radius: 5px;
+  color: white;
+  width: 130px;
+  height: 35px;
+  cursor: pointer;
 }
 .btnVolver:hover {
-background-color: white;
-color: #2c8f20;
-font-weight: bold;
-text-transform: uppercase;
+  background-color: white;
+  color: #2c8f20;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .btnComprar {
-   background-color: #2c8f20;
-   border-radius: 5px;
-   color: white;
-   width: 130px;
-   height: 35px;
-   cursor: pointer;    
+  background-color: #2c8f20;
+  border-radius: 5px;
+  color: white;
+  width: 130px;
+  height: 35px;
+  cursor: pointer;
 }
 .btnComprar:hover {
-    background-color: white;
-    color: #2c8f20;
-    font-weight: bold;
-    text-transform: uppercase;
+  background-color: white;
+  color: #2c8f20;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* PRINCIPAL */
 .principal {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 
 /* IMAGEN PRINCIPAL */
 .principal-img {
-    background-color: #bc105c;
-    border-radius: 5px;
-    width: 40%;
+  background-color: #bc105c;
+  border-radius: 5px;
+  width: 40%;
 }
 .principal-img h1 {
-    text-align: center;
-    margin: 0px;
+  text-align: center;
+  margin: 0px;
 }
 .principal-imagen {
-    width: 100%;
+  width: 100%;
 }
 
 /* DESCRIPCION */
 .principal-descripcion {
-    width: 30%;
-    background-color: #bc105c;
-    border-radius: 5px;
+  width: 30%;
+  background-color: #bc105c;
+  border-radius: 5px;
 }
 .principal-descripcion h1 {
-    text-align: center;
-    margin: 0px;
+  text-align: center;
+  margin: 0px;
 }
 .principal-descripcion p {
-    text-align: justify;
-    margin: 8px;
-    line-height: 1.5;
+  text-align: justify;
+  margin: 8px;
+  line-height: 1.5;
 }
 
 /* INFORMACION */
 .principal-informacion {
-    width: 30%;
-    background-color: #bc105c;
-    border-radius: 5px;
+  width: 30%;
+  background-color: #bc105c;
+  border-radius: 5px;
 }
 .principal-informacion h1 {
-    text-align: center;
-    margin: 0px;
-
+  text-align: center;
+  margin: 0px;
 }
 .principal-informacion dl {
-    text-align: left;
-    margin: 8px;
-    line-height: 1.5;
+  text-align: left;
+  margin: 8px;
+  line-height: 1.5;
 }
 .principal-informacion dt {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* SECUNDARIO */
 .secundario {
-    margin-top: 16px;
-    background-color: #bc105c;
-    gap: 16px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 200px;
+  margin-top: 16px;
+  background-color: #bc105c;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .secundario img {
-    width: 250px;
-    max-height: 150px;
-    margin: 16px;
-    border: 2px solid white; 
-    border-radius: 5px;    
+  width: 250px;
+  height: 150px;
+  margin: 16px;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 .secundario img:hover {
-   transform: scale(2);
-   border: 4px solid white;
-   position: relative;
-   bottom: 50px;  
+  transform: scale(2);
+  border: 4px solid white;
+  position: relative;
+  
 }
 
 .frmComprar {
-   margin-top: 16px;
-   background-color: #bc105c;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-   
-   
-   
+  background-color: #bc105c;
+  margin-top: 16px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.field-element {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  width: 300px;
+  border-radius: 16px;
+  resize: none;
+}
+
+.btn-submit {
+  background-color: #2c8f20;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: #2c8f20;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 5px 5px #2c8f20;
 }
